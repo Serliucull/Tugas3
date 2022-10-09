@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1 align="center">PERPUSTAKAAN BATAK NESE </h1>
+        <table border="solid" align="center">
+            <tr>
+                <th >Nomor</th>
+                <th >Nama Buku</th>
+                <th >Category</th>
+                <th >Yang bisa meminjam</th>
+            </tr>
+            <tr>
+                <td align="center">1.</td>
+                <td align="center">pantun bersajak ABAB</td>
+                <td align="center">Buku Bahasa Indonesia</td>
+                <td align="center">Anak Anak & Orang Dewasa</td>
+            </tr>
+            <tr>
+                <td align="center">2.</td>
+                <td align="center">rahasia langgeng pacaran</td>
+                <td align="center">Roman</td>
+                <td align="center">Orang Dewasa 18+</td>
+            </tr>
+            <tr>
+                <td align="center">3.</td>
+                <td align="center">cinta monyet</td>
+                <td align="center">Novel</td>
+                <td align="center">Orang Dewasa 18+</td>
+            </tr>
+            <tr>
+                <td align="center">4.</td>
+                <td align="center">Matematika Ilmu Yang Menyenangkan</td>
+                <td align="center">Pendidikan Matematika</td>
+                <td align="center">Anak Anak & Orang Dewasa </td>
+            </tr>
+            <tr>
+                <td align="center">5.</td>
+                <td align="center">Belajar Pyhton</td>
+                <td align="center">Teknologi</td>
+                <td align="center">Anak Anak & Orang Dewasa</td>
+            </tr>
+        </table>
+        <br><br>
+        <form action="" method="">
+            <fieldset >
+                <p><label for="name">Name:</label> <input type="text" id="name" placeholder="Your Name" required></p>
+                <p><label for="email">Email:</label> <input type="email" id="email" placeholder="Email@example.com" required></p>
+                <p><label for="phone">Phone:</label> 
+                <input type="number" id="phone" pattern=".{11,}" title="Minimal 11 Nomor" placeholder="088809122362" required></p>
+            </fieldset>
+            <br>
+            
+            <b>Pilih Buku yang ingin dipinjam: </b> <br>
+            <input type="radio" name="pinjam">pantun bersajak ABAB<br> 
+            <input type="radio" name="pinjam">rahasia langgeng pacaran<br>
+            <input type="radio" name="pinjam">cinta monyet<br>
+            <input type="radio" name="pinjam">Matematika Ilmu yang menyenangkan  <br>
+            <input type="radio" name="pinjam">Belajar Pyhton <br><br>
+            <input type="submit">
+        </form>
+    </body>
+    </html>
+</body>
+</html>
